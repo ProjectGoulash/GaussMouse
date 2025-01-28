@@ -312,203 +312,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
 				(offset 1.016) hide)
@@ -3599,18 +3402,6 @@
 		(uuid "6ec55f28-4466-4735-9c38-a9ca74ab4d03")
 	)
 	(junction
-		(at 27.94 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "717a242c-74dc-4c40-aae4-46b65e78caf2")
-	)
-	(junction
-		(at 41.91 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "785aaa1e-df01-42c8-ad3a-c547f1ba7c1e")
-	)
-	(junction
 		(at 242.57 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3691,16 +3482,6 @@
 			(type default)
 		)
 		(uuid "05e7a115-ac40-4c88-b81c-5ae95fa7b579")
-	)
-	(wire
-		(pts
-			(xy 41.91 179.07) (xy 41.91 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062e700a-9494-45b2-a467-22711604eb09")
 	)
 	(wire
 		(pts
@@ -3824,16 +3605,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 172.72) (xy 31.75 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b2c2aa9-0c52-4ab2-ac96-112225095cb4")
-	)
-	(wire
-		(pts
 			(xy 269.24 57.15) (xy 269.24 59.69)
 		)
 		(stroke
@@ -3931,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "437f626d-20f8-44b6-9c23-0cde97d801d7")
-	)
-	(wire
-		(pts
-			(xy 41.91 167.64) (xy 41.91 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46899046-feb2-4824-b46f-bc73c5a853ef")
 	)
 	(wire
 		(pts
@@ -4054,16 +3815,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 167.64) (xy 55.88 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "617a2f36-0e4e-4fe8-8e27-9cade3972af0")
-	)
-	(wire
-		(pts
 			(xy 265.43 129.54) (xy 265.43 132.08)
 		)
 		(stroke
@@ -4144,16 +3895,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 167.64) (xy 41.91 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70bf37b7-df68-43b0-a5e0-4ae9f6602340")
-	)
-	(wire
-		(pts
 			(xy 30.48 113.03) (xy 30.48 110.49)
 		)
 		(stroke
@@ -4211,16 +3952,6 @@
 			(type default)
 		)
 		(uuid "76d29c95-56bf-499d-b648-e7011686e627")
-	)
-	(wire
-		(pts
-			(xy 31.75 182.88) (xy 31.75 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77320107-979a-41e6-b6b8-f5d3403be30f")
 	)
 	(wire
 		(pts
@@ -4351,16 +4082,6 @@
 			(type default)
 		)
 		(uuid "98337c87-4936-4897-aa19-d78d29da4df5")
-	)
-	(wire
-		(pts
-			(xy 27.94 182.88) (xy 27.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99c7b7bf-a0a4-4289-ad42-84ddb1540d7c")
 	)
 	(wire
 		(pts
@@ -4534,16 +4255,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 167.64) (xy 43.18 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6d14da-db18-4efa-a12e-9cb89f3983ed")
-	)
-	(wire
-		(pts
 			(xy 163.83 133.35) (xy 163.83 132.08)
 		)
 		(stroke
@@ -4621,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "cf014b96-955f-4e13-b37c-2c31042e2366")
-	)
-	(wire
-		(pts
-			(xy 31.75 170.18) (xy 27.94 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfd67628-565c-4ca2-9a88-a1b11e2ab369")
 	)
 	(wire
 		(pts
@@ -4814,16 +4515,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 170.18) (xy 27.94 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9fe894e-5ceb-40b7-b7ba-3d163ae7110d")
-	)
-	(wire
-		(pts
 			(xy 257.81 40.64) (xy 260.35 40.64)
 		)
 		(stroke
@@ -4896,31 +4587,9 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 27.94 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05fdedfa-71fa-4934-b1fc-a9847e0697d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.4933 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IntN"
 		(shape input)
-		(at 73.66 49.53 180)
+		(at 73.66 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4930,7 +4599,7 @@
 		)
 		(uuid "07b5cc0f-edf6-40ca-bbcd-aeb216555230")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.8648 49.53 0)
+			(at 66.8648 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4609,7 @@
 			)
 		)
 	)
-	(global_label "PC6"
+	(global_label "WS2812"
 		(shape input)
 		(at 97.79 144.78 180)
 		(fields_autoplaced yes)
@@ -4952,7 +4621,7 @@
 		)
 		(uuid "08a05d61-a849-46d2-88ae-0f6c00c95c6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.0553 144.78 0)
+			(at 87.3059 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,9 +4653,9 @@
 			)
 		)
 	)
-	(global_label "PD5"
+	(global_label "Right"
 		(shape input)
-		(at 124.46 31.75 180)
+		(at 142.24 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4996,7 +4665,7 @@
 		)
 		(uuid "0d742ee4-7d2f-4a1d-9171-9c1e66228bb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7253 31.75 0)
+			(at 134.3563 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +4785,7 @@
 			)
 		)
 	)
-	(global_label "PD7"
+	(global_label "Left"
 		(shape input)
 		(at 160.02 31.75 180)
 		(fields_autoplaced yes)
@@ -5128,7 +4797,7 @@
 		)
 		(uuid "2309901e-19d1-4cd2-a6a4-ec9467702690")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.2853 31.75 0)
+			(at 153.4667 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +4809,7 @@
 	)
 	(global_label "Env_SCL"
 		(shape input)
-		(at 226.06 104.14 180)
+		(at 226.06 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5150,7 +4819,7 @@
 		)
 		(uuid "23563216-423d-47f3-ab56-826c906483d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.334 104.14 0)
+			(at 215.334 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5314,6 +4983,28 @@
 			)
 		)
 	)
+	(global_label "Center"
+		(shape input)
+		(at 91.44 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d1b7d44-46b1-4c34-ad47-108185c59224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.5333 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PC4"
 		(shape input)
 		(at 91.44 46.99 0)
@@ -5468,7 +5159,7 @@
 			)
 		)
 	)
-	(global_label "PC6"
+	(global_label "WS2812"
 		(shape input)
 		(at 91.44 41.91 0)
 		(fields_autoplaced yes)
@@ -5480,7 +5171,7 @@
 		)
 		(uuid "6487c1d4-1dd2-41a2-ac2f-1302ce0433e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.1747 41.91 0)
+			(at 101.9241 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5512,9 +5203,9 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "Right"
 		(shape input)
-		(at 27.94 165.1 0)
+		(at 91.44 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5522,9 +5213,9 @@
 			)
 			(justify left)
 		)
-		(uuid "784df7b0-3ad0-4c15-910a-849f4c8b6c7d")
+		(uuid "7a4c5013-c8bf-4a3a-b3c2-29b81cd23c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.4328 165.1 0)
+			(at 99.3237 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5644,9 +5335,9 @@
 			)
 		)
 	)
-	(global_label "PD6"
+	(global_label "Center"
 		(shape input)
-		(at 142.24 31.75 180)
+		(at 124.46 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5656,7 +5347,7 @@
 		)
 		(uuid "976c9437-a7bb-4fd8-b99d-672f3f7d8a47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.5053 31.75 0)
+			(at 115.3667 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,7 +5447,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 27.94 102.87 0)
+		(at 27.94 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5766,7 +5457,7 @@
 		)
 		(uuid "c27a5726-bf8e-4a4c-b7c1-71eee6f9a152")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.4933 102.87 0)
+			(at 34.4933 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5794,28 +5485,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PD7"
-		(shape input)
-		(at 73.66 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c689b448-e9cf-4e91-89e8-5c11bd0290ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9253 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5932,7 +5601,7 @@
 	)
 	(global_label "Env_SDA"
 		(shape input)
-		(at 226.06 106.68 180)
+		(at 226.06 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5942,12 +5611,34 @@
 		)
 		(uuid "e7362bd0-6a77-4486-96cb-705925bb1342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.2735 106.68 0)
+			(at 215.2735 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Left"
+		(shape input)
+		(at 91.44 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f529dc3f-1882-4e2f-ba74-c60d583207ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.9933 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6067,76 +5758,6 @@
 			(project "GaussMouse_Sensor"
 				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 27.94 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "059dafae-9f4b-4d0e-b70e-5712d6f962fe")
-		(property "Reference" "JP1"
-			(at 25.4 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JOpen"
-			(at 25.4 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 27.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fbfb71b-22d8-4c1e-a4c9-a375e1106e6e")
-		)
-		(pin "2"
-			(uuid "268f4d52-2560-4a11-9469-5aeaa75fe83e")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -6880,72 +6501,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 41.91 181.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2671f47d-8a6a-4509-aef3-1fefbc87dbbf")
-		(property "Reference" "#PWR019"
-			(at 41.91 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 41.91 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c04f57d-e937-4ea6-abd8-5c0c554f9284")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 99.06 132.08 90)
 		(unit 1)
@@ -7409,72 +6964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 31.75 185.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c13d06e-b4a8-4fcc-ad21-06224c3b6e7b")
-		(property "Reference" "#PWR018"
-			(at 31.75 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 31.75 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21babc7a-503d-438f-800d-7f2d95ffeace")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 22.86 123.19 0)
 		(mirror y)
@@ -7608,74 +7097,6 @@
 			(project "GaussMouse_Sensor"
 				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 48.26 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4221c826-bc95-49ed-8015-c047b17493e1")
-		(property "Reference" "JP4"
-			(at 48.26 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 48.26 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7276136-94ad-475d-b754-8b602c50050c")
-		)
-		(pin "2"
-			(uuid "702d4af0-dd3c-483c-a212-7fb2a73b5b26")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -8211,73 +7632,6 @@
 			(project "GaussMouse_Sensor"
 				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 55.88 167.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62283451-e7e3-4950-8a9c-31447619e1df")
-		(property "Reference" "#PWR020"
-			(at 52.07 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 59.69 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e0f4b81-0150-4841-80ba-a25470ff2710")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8850,81 +8204,6 @@
 			(project "GaussMouse_Sensor"
 				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 22.86 165.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7854cd68-1a9f-4fd7-9102-c74aa2f6c881")
-		(property "Reference" "J3"
-			(at 22.86 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OledDisplay"
-			(at 22.86 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 22.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 22.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d742d4f3-c4a6-4290-b3ed-5f76c58aeaf6")
-		)
-		(pin "2"
-			(uuid "b038787c-b537-49a5-be00-b301c9b71877")
-		)
-		(pin "3"
-			(uuid "f42a9b07-8f7a-41b0-a5fc-e842e31c4a74")
-		)
-		(pin "4"
-			(uuid "9d78211c-b579-4b45-8018-2de9db631067")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9604,76 +8883,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 31.75 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95ff5669-378e-4fcc-9211-fb9a2587d36a")
-		(property "Reference" "JP2"
-			(at 33.02 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JClosed"
-			(at 33.02 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
-			(at 31.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abbe56a3-f68f-4bc7-9e65-2a4592d9a02f")
-		)
-		(pin "2"
-			(uuid "3001b948-61ee-4de6-aa2d-036df85ca857")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 219.71 144.78 0)
 		(unit 1)
@@ -10297,72 +9506,6 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 27.94 185.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af6c48fb-8cd1-4d89-a195-ff2533c5b5ee")
-		(property "Reference" "#PWR016"
-			(at 27.94 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 27.94 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0f54e51-61de-4165-83e8-dc88ef597ad1")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
 		(at 128.27 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10762,6 +9905,74 @@
 			(project "GaussMouse_Sensor"
 				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VSS")
+		(at 27.94 102.87 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf99ce86-878a-402c-8aab-205a4a1559ba")
+		(property "Reference" "#PWR046"
+			(at 24.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSS"
+			(at 31.75 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c32fb8-a0f4-425a-8226-e1ad1b44ba53")
+		)
+		(instances
+			(project "GaussMouse_Sensor"
+				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11993,76 +11204,6 @@
 			(project "GaussMouse_Sensor"
 				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 41.91 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec19316b-637c-4d13-b82f-3bdf9247ec24")
-		(property "Reference" "JP3"
-			(at 43.18 172.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 43.18 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 41.91 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca3d5297-af92-4836-b972-ef098eecd7c4")
-		)
-		(pin "2"
-			(uuid "e9caf95d-c9d2-45bc-a54f-b8b6a282d5c0")
-		)
-		(instances
-			(project "GaussMouse_Sensor"
-				(path "/0669131c-53a8-4227-be10-1fb6dbfeb7b7"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
